@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>战网</title>
+    <!-- 清除浏览器的默认样式 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- 引入固定样式 -->
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- 引入页面样式 -->
+    <link rel="stylesheet" href="./css/one.css">
+    <!-- tabs插件css部分的引入 -->
+    <link rel="stylesheet" href="./css/tabs插件/jquery.horizontalmenu.css">
+   
+</head>
+
+<body>
+    <!-- 顶部布局 -->
+    <div class="layout-top">
+        <!-- 第一部分导航栏Navbar-->
+        <div class="Navbar">
+            <!-- 版心 -->
+            <div class="container clearfix">
+                <!-- 导航栏所有内容 -->
+                <div class="ah-tab-wrapper">
+                    <!-- 导航栏内容的 上部按钮内容 -->
+
+                    <div class="ah-tab">
+                        <span class="left">
+                            <a class="ah-tab-item" data-ah-tab-active="true" href=""><img src="./image/one-logo.png"
+                                    alt=""></a>
+                        </span>
+                        <span class="middle">
+                            <a class="ah-tab-item" href="">游戏</a>
+                            <a class="ah-tab-item" href="">商城</a>
+                            <a class="ah-tab-item" href="">新闻</a>
+                            <a class="ah-tab-item" href="">电子竞技</a>
+                        </span>
+                        <span class="right">
+                            <a class="ah-tab-item" href="">支持</a>
+                            <a class="ah-tab-item" href="">我的账户</a>
+                        </span>
+                    </div>
+
+                </div>
+                <!-- 导航栏内容的 下部内容框内容 -->
+                
+                <div class="ah-tab-content-wrapper">
+                    <div class="ah-tab-content" data-ah-tab-active="true">
+                        <h2>
+                            <div>你好</div>
+                        </h2>
+                    </div>
+                    <div class="ah-tab-content">
+                        <h2>Contacts</h2>
+                    </div>
+                    <div class="ah-tab-content">
+                        <h2>Tab item with a long name</h2>
+                    </div>
+                    <div class="ah-tab-content">
+                        <h2>Password change</h2>
+                    </div>
+                    <div class="ah-tab-content">
+                        <h2>Tab item</h2>
+                    </div>
+                    <div class="ah-tab-content">
+                        <h2>我在成都的街上走了走</h2>
+                    </div>
+                    <div class="ah-tab-content">
+                        <h2>还是西安的肉夹馍好吃</h2>
+                    </div>
+                </div>
+                <script>
+                    $(function () {
+                        $('.ah-tab-wrapper').horizontalmenu({
+                            itemClick: function (item) {
+                                $('.ah-tab-content-wrapper .ah-tab-content').removeAttr(
+                                    'data-ah-tab-active');
+                                $('.ah-tab-content-wrapper .ah-tab-content:eq(' + $(item).index() +
+                                        ')')
+                                    .attr('data-ah-tab-active', 'true');
+                                return false; //if this finction return true then will be executed http request
+                            }
+                        });
+                    });
+                </script>
+            </div>
+        </div>
+        <!-- 第二部分内容栏 -->
+        <div class="wrapper">
+            <!-- 版心 -->
+            <div class="container clearfix">
+               <h1><img src="./image/one-mingzi.png" alt=""></h1>
+               
+            </div>
+        </div>
+    </div>
+
+     <!-- 引入jquery -->
+     <script src="./lib/jquery/jquery-3.4.1.min.js"></script>
+     <!-- 引入页面的js -->
+     <script src="./js/one.js"></script>
+     <!-- tabs插件js部分的引入 -->
+     <script src="./js/tabs插件/jquery.horizontalmenu.js"></script>
+</body>
+
+</html>
