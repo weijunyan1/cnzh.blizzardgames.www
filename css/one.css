@@ -3,27 +3,31 @@ body {
     background-image: url(../image/one-background-table.jpg);
 }
 
-.layout-top{
+/* 顶部布局 */
+.layout-top {
     width: 1903px;
     height: 519px;
+    overflow: hidden;
 }
 
-
+/* 第一部分导航栏Navbar */
 /* 清除版心 */
-.Navbar .container{
-   margin: 0;
+.Navbar .container {
+    margin: 0;
 }
 
-.Navbar .ah-tab-wrapper .ah-tab{
+.ah-tab-wrapper {
+    width: 1903px;
+    height: 60px;
+}
+
+.Navbar .ah-tab-wrapper .ah-tab {
     width: 1903px;
     height: 60px;
     border-bottom: solid 1px rgba(255, 255, 255, 0.15);
 }
 
-.ah-tab-content-wrapper{
-    width: 1903px;
-    height: 60px;
-}
+
 
 .ah-tab-wrapper .ah-tab {
     height: 60px;
@@ -40,22 +44,240 @@ body {
     top: 12px;
 }
 
-.ah-tab-wrapper .ah-tab .middle{
+.ah-tab-wrapper .ah-tab .middle {
     display: inline-block;
     height: 60px;
     width: 400px;
     margin-right: 860px;
     margin-left: 300px;
-    padding-top: 19px;  
-} 
+    padding-top: 19px;
+}
 
 .ah-tab-content-wrapper {
     width: 1903px;
     height: 0px;
 }
 
-/* 黑色背景图内容 */
-.black-table{
+
+/* 导航栏内容的 下部内容框内容 */
+
+.diamond1 {
+    position: absolute;
+    left: 350px;
+    top: 61px;
+    width: 10px;
+    height: 10px;
+    border-top: solid 1px rgba(255, 255, 255, 0.15);
+    border-right: solid 1px rgba(255, 255, 255, 0.15);
+    background-color: #283244;
+    opacity: 0.95;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    transform-origin: center;
+}
+
+#ah-tab-content-game{
+    background-color: #283244;
+}
+#ah-tab-content-game .up{
+
+    padding-left: 184px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+#ah-tab-content-game .up img {
+    width: 150px;
+    height: 180px;
+    margin: 0 8px;
+    border: 1px solid #57606e;
+}
+ #ah-tab-content-game .up a{
+    display: inline-block;
+    width: 165px;
+    height: 180px;
+} 
+
+#ah-tab-content-game .down{
+    width: 1920px;
+    height: 46px;
+    border: 1px solid #383b43;
+    padding-top: 10px;
+}
+
+#ah-tab-content-game .down div{
+    margin: 10px 760px;
+}
+
+#ah-tab-content-game .down i{
+    color: #a5b4ca;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-right: 40px;
+}
+
+
+/* 电子竞技 */
+
+#ah-tab-content-electronicSports{
+    background-color: #283244;
+}
+#ah-tab-content-electronicSports .top{
+
+    padding-left: 570px;
+    /* padding-bottom: 30px; */
+    padding-top: 30px;
+}
+
+#ah-tab-content-electronicSports .top img {
+    width: 191px;
+    height: 180px;
+    margin: 0 8px;
+}
+
+#ah-tab-content-electronicSports .word{
+    margin-left: 615px;
+    margin-bottom: 30px;
+}
+
+#ah-tab-content-electronicSports .word span{
+        /* display: inline-block; */
+        color: #a5b4ca;
+        font-size: 14px;
+        /* margin-left: 8px; */
+        margin-right: 80px;
+}
+
+.diamond2 {
+    position: absolute;
+    left: 660px;
+    top: 61px;
+    width: 10px;
+    height: 10px;
+    border-top: solid 1px rgba(255, 255, 255, 0.15);
+    border-right: solid 1px rgba(255, 255, 255, 0.15);
+    background-color: #283244;
+    opacity: 0.95;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    transform-origin: center;
+}
+
+#ah-tab-content-electronicSports .bottom{
+    width: 1920px;
+    height: 46px;
+    border: 1px solid #383b43;
+    padding-top: 10px;
+}
+
+#ah-tab-content-electronicSports .bottom div{
+       /* margin: 10px 760px; */
+       margin-left: 880px;
+       margin-top: 10px;
+}
+
+#ah-tab-content-electronicSports .bottom i{
+    color: #a5b4ca;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-right: 40px;
+}
+
+
+/* 登录 */
+#ah-tab-content-SignIn{
+   
+    border: 0;
+ 
+}
+
+#ah-tab-content-SignIn h2{
+    width: 318px;
+    height: 167px;
+    border: 1px solid #383b43;
+    margin-left: 1330px;
+     background-color: #273142;
+}
+
+#ah-tab-content-SignIn .DL{
+    width: 318px;
+    height: 78px;
+    border-bottom: 1px solid #383b43;
+}
+
+#ah-tab-content-SignIn .DL a{
+    display: inline-block;
+    background-color: #006fb2;
+    border: solid 1px #00aeff;
+    font-size: 16px;
+    line-height: 1;
+    color: #fff;
+    padding: 10px 130px;
+    margin-left: 12px;
+    margin-top: 20px;
+   
+}
+
+
+#ah-tab-content-SignIn .ZH{
+
+    position: relative;
+    width: 318px;
+    height: 34px;
+    margin-top: 10px;
+    border-bottom: 1px solid #383b43;
+}
+
+#ah-tab-content-SignIn .ZH a{
+    padding: 0 20px;
+}
+
+#ah-tab-content-SignIn .ZH i{
+    position: absolute;
+    top: 0px;
+    left: 43px;
+    color: #fff;
+    margin-left: 5px;
+    font-size: 17px;
+    font-weight: 100;
+  }
+ 
+
+#ah-tab-content-SignIn .ZC{
+    position: relative;
+    width: 318px;
+    height: 34px;
+    margin-top: 10px;
+    border-bottom: 1px solid #383b43;
+}
+
+#ah-tab-content-SignIn .ZC a{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#ah-tab-content-SignIn .ZC i{
+    position: absolute;
+    top: 0px;
+    left: 43px;
+    color: #fff;
+    margin-left: 5px;
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.diamond3 {
+    position: absolute;
+    left: 1640px;
+    top: 61px;
+    width: 10px;
+    height: 10px;
+    border-top: solid 1px rgba(255, 255, 255, 0.15);
+    border-right: solid 1px rgba(255, 255, 255, 0.15);
+    background-color: #283244;
+    opacity: 0.95;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    transform-origin: center;
+}
+/* 第二部分宣传内容black*/
+.black-table {
     background-color: #07080a;
     width: 1920px;
     height: 460px;
@@ -68,56 +290,53 @@ body {
     margin: 0 80px;
 }
 
-.black-table .title{
+.black-table .title {
     width: 100px;
-    
+
 }
-
-
-
-
 
 
 .black {
     /* position: absolute; */
-  
+
     margin: 0 315px;
-   
+
 }
 
-.black .black-up{
+.black .black-up {
     margin-top: 48px;
 }
 
-.black .black-down{
+.black .black-down {
     width: 1280px;
     height: 307px;
     /* border: 1px solid #fff; */
     /* margin-top: 40px; */
     font-size: 28px;
-   
+
 }
 
-.black .black-down .left{
-   
+.black .black-down .left {
+
     display: inline-block;
     width: 606px;
     height: 143px;
     /* border: 1px solid #fff; */
 }
 
-.black .black-down .right{
-    
+.black .black-down .right {
+
     display: inline-block;
     width: 668px;
     height: 220px;
     /* border: 1px solid #fff; */
 }
-.black .black-down .left{
+
+.black .black-down .left {
     float: left;
 }
 
-.black .black-down .right{
+.black .black-down .right {
     float: right;
 }
 
@@ -127,7 +346,7 @@ body {
     margin-top: 51px;
 }
 
-.black .black-down .left span{
+.black .black-down .left span {
     color: #566b73;
     display: inline-block;
     font-size: 14px;
@@ -136,17 +355,11 @@ body {
     top: -5px;
     padding: 2px 5px;
     border-radius: 5px;
-   
+
 }
 
-.black .black-down .left strong{
-    display: inline-block;
-    width: 140px;
-    height: 30px;
-    margin-bottom: 12px;
-}
 
-.black .black-down .left .papers{
+.black .black-down .left .papers {
     font-size: 12px;
 
     margin-right: 10px;
@@ -155,38 +368,309 @@ body {
     text-transform: uppercase;
     padding: 8px 15px;
     border-radius: 3px;
-   
+
     background: -moz-linear-gradient(top, #0081b4 0%, #006a9b 100%);
-   
-    background: -webkit-linear-gradient(top, #0081b4 0%,#006a9b 100%);
+
+    background: -webkit-linear-gradient(top, #0081b4 0%, #006a9b 100%);
 }
 
-.black .black-down .left .SignIn{
-    font-size: 14px;
-    color: #00b6ff;
+
+.black .black-down .right {
+    width: 256px;
+    height: 200px;
+    /* border: 1px solid white; */
 }
 
-.black .black-down .right{
-  width: 256px;
-  height: 200px;
-  /* border: 1px solid white; */
-}
-
-.black .black-down .right div{
+.black .black-down .right div {
     width: 256px;
     height: 166px;
     /* border: 1px solid white; */
     overflow: hidden;
     margin-top: 10px;
-  }
+}
 
-  
 
-.black .black-down .right span{
+
+.black .black-down .right span {
     width: 256px;
     /* margin-top: -15px; */
     display: block;
     text-align: center;
     font-size: 14px;
     color: #00b6ff;
-  }
+}
+
+
+/* 中间布局 */
+.layout-middle {
+    background: #d3d1ce url(../image/one-middle-background.jpg) top center repeat-x;
+    border-bottom: 4px solid #777674;
+    width: 1903px;
+    height: 390px;
+}
+
+.layout-middle .game-column {
+    position: relative;
+    width: 1280px;
+    height: 409px;
+    margin: 0 100px;
+    border: 1px solid black;
+}
+
+.layout-middle .game-column .gamecard1 {
+    position: absolute;
+    top: -86px;
+    left: -3px;
+
+}
+
+.layout-middle .game-column .gamecard2 {
+    position: absolute;
+    top: -86px;
+    left: 180px;
+
+}
+
+.layout-middle .game-column .gamecard3 {
+    position: absolute;
+    top: -86px;
+    left: 364px;
+
+}
+
+.layout-middle .game-column .gamecard4 {
+    position: absolute;
+    top: -86px;
+    left: 546px;
+
+}
+
+.layout-middle .game-column .gamecard5 {
+    position: absolute;
+    top: -86px;
+    left: 729px;
+
+}
+
+.layout-middle .game-column .gamecard6 {
+    position: absolute;
+    top: -86px;
+    left: 910px;
+
+}
+
+.layout-middle .game-column .gamecard7 {
+    position: absolute;
+    position: relative;
+    top: -86px;
+    left: 1092px;
+
+}
+
+.layout-middle .game-column a {
+
+    display: inline-block;
+    width: 164px;
+    height: 394px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    margin-left: 13px;
+}
+
+
+
+.layout-middle .game-column .gamecard7 span {
+    position: absolute;
+    top: 18px;
+    left: 41px;
+    display: inline-block;
+    font-size: 14px;
+    color: #eee;
+}
+
+.layout-middle .game-column .gamecard7 span {
+    position: absolute;
+    top: 18px;
+    left: 41px;
+    display: inline-block;
+    font-size: 14px;
+    color: #eee;
+}
+
+.layout-middle .game-column .gamecard6 span {
+    position: absolute;
+    top: 18px;
+    left: 41px;
+    display: inline-block;
+    font-size: 14px;
+    color: #eee;
+}
+
+.layout-middle .game-column .gamecard5 span {
+    position: absolute;
+    top: 18px;
+    left: 41px;
+    display: inline-block;
+    font-size: 14px;
+    color: #eee;
+}
+
+.layout-middle .game-column .gamecard4 span {
+    position: absolute;
+    top: 18px;
+    left: 13px;
+    display: inline-block;
+    font-size: 14px;
+    color: #eee;
+}
+
+.layout-middle .game-column .gamecard3 span {
+    position: absolute;
+    top: 18px;
+    left: 41px;
+    display: inline-block;
+    font-size: 14px;
+    color: #eee;
+}
+
+.layout-middle .game-column .gamecard2 span {
+    position: absolute;
+    top: 18px;
+    left: 26px;
+    display: inline-block;
+    font-size: 14px;
+    color: #eee;
+}
+
+.layout-middle .game-column .gamecard1 span {
+    position: absolute;
+    top: 18px;
+    left: 41px;
+    display: inline-block;
+    font-size: 14px;
+    color: #eee;
+}
+
+
+
+
+
+
+/* 底部布局 */
+.layout-bottom {
+    width: 1903px;
+    height: 410px;
+    background-color: black;
+}
+
+
+.layout-bottom div{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+
+
+.layout-bottom-logo {
+  
+    margin-top: 30px;
+}
+
+
+ .layout-bottom-word a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+} 
+
+.layout-bottom-word span {
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    margin: 0 16px;
+    border-left: 1px solid rgba(255, 255, 255, 0.15)
+}
+
+.layout-bottom-word {
+   
+    margin-top: 19px;
+    margin-bottom: 30px;
+  
+}
+
+
+.layout-bottom-word3 a {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.layout-bottom-word4 a {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.layout-bottom-word5{
+   margin-top: 5px;
+   margin-bottom: 10px;
+}
+
+.layout-bottom-word5 a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+} 
+
+.layout-bottom-word5 span {
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    margin: 0 12px;
+    border-left: 1px solid rgba(255, 255, 255, 0.15)
+}
+ .layout-bottom-word6 a {
+    color:rgba(255, 255, 255, 0.5);
+}  
+
+.layout-bottom-word6 span {
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    margin: 0 12px;
+    border-left: 1px solid rgba(255, 255, 255, 0.15)
+}
+
+.layout-bottom-word7 {
+  margin-top: 3px;
+} 
+
+.layout-bottom-word7 span {
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    margin: 0 12px;
+    border-left: 1px solid rgba(255, 255, 255, 0.15)
+}
+
+
+.layout-bottom-word7 a {
+    color:rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    
+} 
+
+.layout-bottom-word8{
+    margin-top: 3px;
+}
+
+.layout-bottom-word9 img{
+   width: 26px;
+   height: 26px;
+   margin-left: 5px;
+}
+
+.layout-bottom-word9 {
+ 
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
