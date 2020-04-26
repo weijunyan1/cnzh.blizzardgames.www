@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>暴雪新闻</title>
+</head>
+
+<body>
     <!-- 清除浏览器的默认样式 -->
     <link rel="stylesheet" href="./css/reset.css">
     <!-- 引入固定样式 -->
@@ -13,27 +16,31 @@
     <link rel="stylesheet" href="./css/second.css">
     <!-- tabs插件css部分的引入 -->
     <link rel="stylesheet" href="./css/tabs插件/jquery.horizontalmenu.css">
-    <!-- bootstrap插件css部分的引入 -->
-    <link rel="stylesheet" href="./css/bootstrap插件/bootstrap-touch-slider.css">
+
+
     <!-- 引入jquery -->
     <script src="./lib/jquery/jquery-3.4.1.min.js"></script>
     <!-- 引入页面的js -->
-    <script src="./js/second.js"></script>
+    <script src="./js/second.js.js"></script>
     <!-- tabs插件js部分的引入 -->
     <script src="./js/tabs插件/jquery.horizontalmenu.js"></script>
-    <!-- bootstrap插件js部分的引入 -->
-    <script src="./js/bootstrap插件/bootstrap-touch-slider.js"></script>
 
-</head>
 
-<body>
+
+
+
+
+
     <!-- 顶部布局 -->
     <div class="layout-top">
-        <!-- 导航栏 -->
-        <div class="navigation">
+        <!-- 顶部第一部分导航栏Navbar-->
+        <div class="Navbar">
+            <!-- 版心 -->
             <div class="container clearfix">
-                <!-- 导航栏的按钮部分 -->
+                <!-- 导航栏所有内容 -->
                 <div class="ah-tab-wrapper">
+                    <!-- 导航栏内容的 上部按钮内容 -->
+
                     <div class="ah-tab">
                         <span class="left">
                             <a href=""><img src="./image/one-logo.png" alt=""></a>
@@ -74,7 +81,9 @@
 
 
                     </div>
-                    <!-- 导航栏的内容部分 -->
+
+
+                    <!-- 导航栏内容的 下部内容框内容 -->
                     <div class="ah-tab-content-wrapper">
 
                         <!-- 游戏 -->
@@ -210,7 +219,7 @@
 
                         <!-- 支持 -->
                         <div class="ah-tab-content">
-                            <h2>支持</h2>
+                            <!-- <h2>支持</h2> -->
                         </div>
                         <!-- 我的账户 -->
                         <div class="ah-tab-content" id="ah-tab-content-SignIn">
@@ -251,21 +260,88 @@
                 </div>
             </div>
         </div>
+        <!-- 顶部第二部分宣传内容catalog-->
+        <div class="catalog">
+            <div class="catalog-up">
+                <span><a href="">所有新闻</a></span>
+                <span><a href="">暗黑破坏神III</a></span>
+                <span><a href="">《暗黑破坏神：不朽》</a></span>
+                <span><a href="">炉石传说</a></span>
+                <span><a href="">风暴英雄</a></span>
+                <span><a href="">守望先锋</a></span>
+                <span><a href="">星际争霸：重制版</a></span>
+                <span><a href="">星际争霸II</a></span>
+                <span><a href="">魔兽世界</a></span>
+                <span><a href="">魔兽争霸III：重制版</a></span>
+                <span><a href="">暴雪嘉年华</a></span>
+                <span><a href="">走进暴雪</a></span>
+            </div>
+            <div class="catalog-down">
+                <div class="box">
+                    <div class="card">
+                        <a href="">
+                            <div class="card-up"><img src="./image/third-game11.jpg" alt=""></div>
+                            <div class="card-down">
+                                <i>魔兽世界</i>
+                                <span>假日活动：《争霸艾泽拉斯》地下城之约</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="">
+                            <div class="card-up"><img src="./image/third-game11.jpg" alt=""></div>
+                            <div class="card-down">
+                                <i>魔兽世界</i>
+                                <span>《暗影国度》前瞻：雷文德斯、温西尔盟约</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="">
+                            <div class="card-up"><img src="./image/third-game11.jpg" alt=""></div>
+                            <div class="card-down">
+                                <i>魔兽世界</i>
+                                <span>《争霸艾泽拉斯》100%额外声望活动4月21日开启</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="">
+                            <div class="card-up"><img src="./image/third-game11.jpg" alt=""></div>
+                            <div class="card-down">
+                                <i>魔兽世界</i>
+                                <span>《魔兽世界》经典怀旧服祖尔格拉布团队副本现已开放</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="word">
+            近期新闻
+        </div>
     </div>
-    <!-- 主体部分 -->
-    <div class="main">
-      
+
+    <div class="mian">
+        <div class="container clearfix">
+            <div class="main-new">
+                
+                    <a href="">
+                        <div class="left"><img src="./image/third-game2.jpg" alt=""></div>
+                        <div class="right">
+                            <div class="title">魔兽世界</div>
+                            <h3>猎人称霸欧亚赛区杯赛2首日对决 Method EU遭遇首败</h3>
+                            <div class="game">2020史诗钥石地下城全球锦标赛（MDI）欧亚赛区第二轮杯赛于4月26日凌晨进行，兽王猎人成为杯赛首日出场率最高的职业。</div>
+                            <div class="time">6 小时前</div>
+                        </div>
+                    </a>
+                
+            </div>
+        </div>
     </div>
 
 
-    <!-- 引入jquery -->
-    <script src="./lib/jquery/jquery-3.4.1.min.js"></script>
-    <!-- 引入页面的js -->
-    <script src="./js/second.js"></script>
-    <!-- tabs插件js部分的引入 -->
-    <script src="./js/tabs插件/jquery.horizontalmenu.js"></script>
-    <!-- bootstrap插件js部分的引入 -->
-    <script src="./js/bootstrap插件/bootstrap-touch-slider.js"></script>
+
 
 </body>
 

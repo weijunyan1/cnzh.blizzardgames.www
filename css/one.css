@@ -76,6 +76,7 @@ body {
 }
 
 #ah-tab-content-game{
+    border: 1px solid #383b43;
     background-color: #283244;
 }
 #ah-tab-content-game .up{
