@@ -8,7 +8,7 @@
     width: 1903px;
     height: 640px;
     overflow: hidden;
-    background-image: url(../image/third-background6.jpg);
+    background-image: url(../image/third-background14.jpg);
 }
 
 /* 第一部分导航栏Navbar */
@@ -337,71 +337,93 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 .catalog-down {
+    overflow: hidden;
     height: 417px;
     width: 1903px;
     border-bottom: 1px solid hsla(0, 0%, 100%, .15);
 }
+.catalog-down .box-top{
+    height: 60px;
+    width: 1560px;
+}
 
-
-.layout-top .catalog .catalog-down .box {
-    margin: 0 150px;
-    width: 1600px;
-    height: 415px;
-    /* border: 1px solid hsla(0, 0%, 100%, .15); */
+.catalog-down .box{
+    height: 313px;
+    width: 1560px;
+    /* border: 1px solid black; */
+    margin: 0 200px;
 
 }
 
-.layout-top .catalog .catalog-down .card {
+.catalog-down img{
+    width: 357px;
+    height: 179px;
+}
+
+.catalog-down .card{
     display: inline-block;
-    width: 358px;
-    height: 290px;
-    border: 1px solid hsla(0, 0%, 100%, .15);
-    margin-top: 63px;
-    margin-left: 37px;
-}
-
-.layout-top .catalog .catalog-down .card img {
-
-    width: 358px;
-    height: 179px;
-
-}
-
-
-.layout-top .catalog .catalog-down .card-up {
-    width: 358px;
-    height: 179px;
+    width: 357px;
+    height: 313px;
+    /* border: 1px solid black; */
+    margin-right: 26px;
     border: 1px solid hsla(0, 0%, 100%, .15);
 }
 
-.layout-top .catalog .catalog-down .card-down {
-    width: 358px;
-    height: 108px;
-    border: 1px solid hsla(0, 0%, 100%, .15);
+.catalog-down .card a{
+    width: 357px;
+    height: 313px;
 }
 
+.catalog-down .card .card-down{
+    width: 357px;
+    height: 133px;
+    /* padding: 30px 30px; */
+}
 
-.layout-top .catalog .catalog-down .card i {
+.catalog-down .card i{
     display: block;
-    /* margin: 18px 0; */
     margin-top: 18px;
     margin-left: 30px;
     width: 300px;
     height: 30px;
     font-size: 14.4px;
     color: hsla(0, 0%, 100%, .3);
+  
 }
 
-.layout-top .catalog .catalog-down .card span {
+.catalog-down .card i{
     display: block;
-    line-height: 1.4;
-    /* margin-top: 10px; */
+    margin-top: 18px;
     margin-left: 30px;
     width: 300px;
-
+    height: 30px;
+    font-size: 14.4px;
+    color: hsla(0, 0%, 100%, .3);
+  
+}
+.catalog-down .card .guide{
+  overflow: hidden;
+   width: 327px;
+   height: 70px;
+    margin-left: 30px;
     font-size: 18px;
     color: white;
+   
+  
 }
 
 .layout-top .word {
@@ -413,8 +435,28 @@
     margin-top: 72px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .mian {
-    background-color: #012650;
+    /* background-color: #012650; */
+   background-image: url(../image/third-background15.jpg); 
+   
     width: 1903px;
     height: 4260px;
 }
@@ -498,7 +540,8 @@
 
 
 .layout-bottom {
-    background-color: #012650;
+    background-image: url(../image/third-background15.jpg); 
+    /* background-color: #040917; */
     width: 1903px;
     height: 600px;
     text-align: center;
