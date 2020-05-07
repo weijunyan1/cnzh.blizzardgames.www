@@ -78,7 +78,7 @@
 
 #ah-tab-content-game {
     border: 1px solid #383b43;
-    background-color: #283244;
+    background-color: rgba(38, 48, 65, 0.9);
 }
 
 #ah-tab-content-game .up {
@@ -123,7 +123,7 @@
 /* 电子竞技 */
 
 #ah-tab-content-electronicSports {
-    background-color: #283244;
+    background-color: rgba(38, 48, 65, 0.9);
 }
 
 #ah-tab-content-electronicSports .top {
@@ -200,7 +200,7 @@
     height: 167px;
     border: 1px solid #383b43;
     margin-left: 1330px;
-    background-color: #273142;
+    background-color: rgba(38, 48, 65, 0.9);
 }
 
 #ah-tab-content-SignIn .DL {
@@ -362,10 +362,9 @@
 }
 
 .layout-top .catalog .catalog-down .card img {
-
     width: 358px;
     height: 179px;
-
+    overflow: hidden;
 }
 
 
@@ -373,7 +372,11 @@
     width: 358px;
     height: 179px;
     border: 1px solid hsla(0, 0%, 100%, .15);
+    overflow: hidden;
 }
+
+
+
 
 .layout-top .catalog .catalog-down .card-down {
     width: 358px;
@@ -520,16 +523,16 @@
     padding: 10px 50px;
 }
 
-.layout-bottom .classification{
+.layout-bottom .classification {
     margin: 23px 0;
 }
 
-.layout-bottom .classification a{
+.layout-bottom .classification a {
     font-size: 17px;
-    color: hsla(0,0%,100%,.7);
+    color: hsla(0, 0%, 100%, .7);
 }
 
-.layout-bottom span{
+.layout-bottom span {
     display: inline-block;
     width: 1px;
     height: 12px;
@@ -537,17 +540,39 @@
     border-left: 1px solid rgba(255, 255, 255, 0.15)
 }
 
-.layout-bottom .word{
+.layout-bottom .word {
     font-size: 13px;
-    color: hsla(0,0%,100%,.3);
+    color: hsla(0, 0%, 100%, .3);
     font-weight: 300;
 }
 
-.layout-bottom .word div{
-  margin: 3px 0;
+.layout-bottom .word div {
+    margin: 3px 0;
 }
 
-.layout-bottom .word a{
-    color: hsla(0,0%,100%,.7);
+.layout-bottom .word a {
+    color: hsla(0, 0%, 100%, .7);
     font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.catalog-down .box .card img {
+    transition: all 1s;
+}
+
+.catalog-down .box .card img:hover {
+    transform: scale(1.5);
 }

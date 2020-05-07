@@ -1,0 +1,119 @@
+.all {
+    background-image: url(../image/fifth-backgroundimg.jpg);
+    width: 1903px;
+    height: 1000px;
+    text-align: center;
+}
+
+.all .logo {
+    width: 1600px;
+    height: 650px;
+    /* border: 1px solid white; */
+    padding-top: 60px;
+}
+
+
+.all .logo .src{
+    margin-bottom: 20px;
+}
+
+.all .logo input{
+    width: 360px;
+    height: 40px;
+    margin: 10px 0;
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.3);
+    font-size: 18px;
+    color: rgba(255,255,255,0.3);
+    padding-left: 12px;
+}
+
+.all .logo .sign-in{
+    width: 380px;
+    height: 40px;
+    background-color: #0e86ca;
+    color: #fff;
+    border: 1px solid #10a1de;
+    margin-left: 614px;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.all .logo .use{
+    margin-left: 614px;
+    width: 380px;
+    height: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: rgba(255,255,255,.3);
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.all .logo .use i{
+    background-color: #0b2033;
+    font-size: 13px;
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+    width: 137px;
+    height: 20px;
+    /* border: 1px solid rgba(255,255,255,0.3); */
+}
+
+.all .logo .certificates{
+    width: 380px;
+    height: 40px;
+    background-color: #d60000;
+    color: #fff;
+    border: 1px solid #d60000;
+    margin-left: 614px;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.all .logo span{
+    display: inline-block;
+    font-size: 15px;
+    color: #00aeff;
+    margin: 10px 0;
+}
+
+
+.all .container-lest{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 13px;
+}
+
+.all .container-lest a{
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 13px;
+  
+}
+
+.all .container-lest span{
+  display: inline-block;
+
+}
+
+.all .container-lest div{
+    height: 14px;
+}
+
+.all .container-lest .year{
+    height: 14px;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.all .container-lest li{
+    display: inline-block;
+    margin: 10px 10px;
+}

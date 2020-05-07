@@ -5,6 +5,7 @@
 
 /* 顶部布局 */
 .layout-top {
+    
     width: 1903px;
     height: 640px;
     overflow: hidden;
@@ -346,15 +347,11 @@
 
 
 
-
-
-
-
 .catalog-down {
     overflow: hidden;
     height: 417px;
     width: 1903px;
-    border-bottom: 1px solid hsla(0, 0%, 100%, .15);
+    
 }
 .catalog-down .box-top{
     height: 60px;
@@ -389,6 +386,7 @@
 }
 
 .catalog-down .card .card-down{
+    /* background-color: rgba(195,65,51,.15); */
     width: 357px;
     height: 133px;
     /* padding: 30px 30px; */
@@ -593,4 +591,43 @@
 .layout-bottom .word a{
     color: hsla(0,0%,100%,.7);
     font-size: 13px;
+}
+
+
+
+.catalog .catalog-up .border{
+    width: 129px;
+    border-bottom: 3px solid #00aeff;
+}
+
+
+
+
+
+
+
+
+
+
+.layout-top .catalog .catalog-down .card img {
+    width: 358px;
+    height: 179px;
+    overflow: hidden;
+}
+
+
+.layout-top .catalog .catalog-down .card-up {
+    width: 358px;
+    height: 179px;
+    border: 1px solid hsla(0, 0%, 100%, .15);
+    overflow: hidden;
+}
+
+
+.catalog-down .box .card img {
+    transition: all 1s;
+}
+
+.catalog-down .box .card img:hover {
+    transform: scale(1.2);
 }

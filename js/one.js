@@ -15,5 +15,4 @@ $(function () {
         $('li').css('opacity', 1);
       })
 
-    
 })

@@ -314,7 +314,7 @@
     height: 40px;
     border-bottom: 1px solid hsla(0, 0%, 100%, .15);
     padding: 0 200px;
-
+    overflow: hidden;
 
 }
 
@@ -356,12 +356,13 @@
     width: 1903px;
     border-bottom: 1px solid hsla(0, 0%, 100%, .15);
 }
-.catalog-down .box-top{
+
+.catalog-down .box-top {
     height: 60px;
     width: 1560px;
 }
 
-.catalog-down .box{
+.catalog-down .box {
     height: 313px;
     width: 1560px;
     /* border: 1px solid black; */
@@ -369,12 +370,18 @@
 
 }
 
-.catalog-down img{
+.catalog-down img {
     width: 357px;
     height: 179px;
+    overflow: hidden;
 }
 
-.catalog-down .card{
+
+
+
+
+
+.catalog-down .card {
     display: inline-block;
     width: 357px;
     height: 313px;
@@ -383,18 +390,18 @@
     border: 1px solid hsla(0, 0%, 100%, .15);
 }
 
-.catalog-down .card a{
+.catalog-down .card a {
     width: 357px;
     height: 313px;
 }
 
-.catalog-down .card .card-down{
+.catalog-down .card .card-down {
     width: 357px;
     height: 133px;
     /* padding: 30px 30px; */
 }
 
-.catalog-down .card i{
+.catalog-down .card i {
     display: block;
     margin-top: 18px;
     margin-left: 30px;
@@ -402,10 +409,10 @@
     height: 30px;
     font-size: 14.4px;
     color: hsla(0, 0%, 100%, .3);
-  
+
 }
 
-.catalog-down .card i{
+.catalog-down .card i {
     display: block;
     margin-top: 18px;
     margin-left: 30px;
@@ -413,17 +420,18 @@
     height: 30px;
     font-size: 14.4px;
     color: hsla(0, 0%, 100%, .3);
-  
+
 }
-.catalog-down .card .guide{
-  overflow: hidden;
-   width: 327px;
-   height: 70px;
+
+.catalog-down .card .guide {
+    overflow: hidden;
+    width: 327px;
+    height: 70px;
     margin-left: 30px;
     font-size: 18px;
     color: white;
-   
-  
+
+
 }
 
 .layout-top .word {
@@ -437,10 +445,28 @@
 
 
 
+.catalog-down .box .card img {
+    transition: all 1s;
+}
+
+.catalog-down .box .card img:hover {
+    transform: scale(1.5);
+}
 
 
+.layout-top .catalog .catalog-down .card img {
+    width: 358px;
+    height: 179px;
+    overflow: hidden;
+}
 
 
+.layout-top .catalog .catalog-down .card-up {
+    width: 358px;
+    height: 179px;
+    border: 1px solid hsla(0, 0%, 100%, .15);
+    overflow: hidden;
+}
 
 
 
@@ -561,16 +587,16 @@
     padding: 10px 50px;
 }
 
-.layout-bottom .classification{
+.layout-bottom .classification {
     margin: 23px 0;
 }
 
-.layout-bottom .classification a{
+.layout-bottom .classification a {
     font-size: 17px;
-    color: hsla(0,0%,100%,.7);
+    color: hsla(0, 0%, 100%, .7);
 }
 
-.layout-bottom span{
+.layout-bottom span {
     display: inline-block;
     width: 1px;
     height: 12px;
@@ -578,17 +604,24 @@
     border-left: 1px solid rgba(255, 255, 255, 0.15)
 }
 
-.layout-bottom .word{
+.layout-bottom .word {
     font-size: 13px;
-    color: hsla(0,0%,100%,.3);
+    color: hsla(0, 0%, 100%, .3);
     font-weight: 300;
 }
 
-.layout-bottom .word div{
-  margin: 3px 0;
+.layout-bottom .word div {
+    margin: 3px 0;
 }
 
-.layout-bottom .word a{
-    color: hsla(0,0%,100%,.7);
+.layout-bottom .word a {
+    color: hsla(0, 0%, 100%, .7);
     font-size: 13px;
+}
+
+
+
+.catalog .catalog-up .border {
+    width: 84px;
+    border-bottom: 3px solid #00aeff;
 }
